@@ -36,22 +36,20 @@ public class Application {
 	 ***************************/
 	private static final String 
 	TXT = ".txt",
-	INPUT_FILE_1 = "input_graph/route1.txt",
-	INPUT_FILE_2 = "input_graph/route2.txt",
+	INPUT_FILE_1 = "input_graph/graph1.txt",
+	INPUT_FILE_2 = "input_graph/graph2.txt",
 	OUTPUT_FILE_1 = "output_solutions/Result Graph 1 ",
 	OUTPUT_FILE_2 = "output_solutions/Result Graph 2 ";
-	
+
 	private static final String 
 	MSG_BIENVENU = 	"\n******************************************" +
 					"\n*                BIENVENU !              *" +
 					"\n*                                        *" +
 					"\n*  Voici une application qui permet de   *" +
-					"\n*  trouver le parcours le plus court     *" + 
-					"\n*  à partir d'un itinéraire avec comme   *" +
-					"\n*  objectif de passer par tous les       *" + 
-					"\n*  points une seule fois sans jamais     *" + 
-					"\n*  reprendre le même chemin et être      *" +
-					"\n*  capable de revenir au même point      *" +
+					"\n*  trouver les parcours qui passent par  *" + 
+					"\n*  tous les points une seule fois sans   *" + 
+					"\n*  jamais reprendre le même chemin et    *" +
+					"\n*  être capable de revenir au même point *" +
 					"\n*  de départ.                            *" +
 					"\n*                                        *" +
 					"\n******************************************\n",

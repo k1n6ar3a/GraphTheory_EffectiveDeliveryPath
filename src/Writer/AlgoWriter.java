@@ -234,13 +234,13 @@ public class AlgoWriter implements InterfaceWriter<OutputGraphModel>{
 	private void fileWriter(StringBuilder resultat, int i){
 
 		//Affiche dans la Console les différents parcours, leurs sommets, le poids entre les sommets et le poids total du parcours
-		System.out.println(MSG_DISTANCE_TOTAL + distanceTotal + "\n");
+		System.out.println(MSG_DISTANCE_TOTAL + distanceTotal + " Km\n");
 		System.out.println(resultat);
 
 		try {
 			//Ecriture du poids total du chemin parcouru dans le fichier .txt
 			buffWriter.newLine();
-			buffWriter.write(MSG_DISTANCE_TOTAL + distanceTotal);
+			buffWriter.write(MSG_DISTANCE_TOTAL + distanceTotal + " Km");
 			buffWriter.newLine();
 			buffWriter.newLine();
 
