@@ -7,8 +7,9 @@ Le projet actuel consiste à développer une application (java) sans interface g
 Le démarrage de l'application se fait à partir de la classe Application.java.
 Les itinéraires (solutions) des fichiers txt seront affichés dans la console de votre IDE (Java). Pour la démonstration, deux fichiers txt contenant les points de livraison sont fournis dans le dossier input_graph du projet. Les solutions seront sauvegardées dans ce cas-ci dans deux fichiers txt (avec une étampe contenant la date et l'heure) qu'on peut retrouver dans le dossier output_solutions.
 
-## Chemins entre les points de livraison
+## Carte des points de livraison
 
+![alt text](https://github.com/k1n6ar3a/GraphTheory_EffectiveDeliveryPath/blob/master/delivery_point_map/DeliveryPointMap.png)
 
 ## Structure du fichier en entrée
 
